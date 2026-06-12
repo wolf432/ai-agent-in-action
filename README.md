@@ -11,9 +11,9 @@
 ## 运行
 
 ```bash
-pip install openai python-dotenv
+uv sync
 cp .env.example .env  # 填入你的 API_KEY / BASE_URL / MODEL
-python 01-tool-calling/robust_tool_calling.py
+uv run 01-tool-calling/robust_tool_calling.py
 ```
 
 ## 关注公众号
